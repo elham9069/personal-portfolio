@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine&family=Nunito&family=Roboto+Slab&family=Work+Sans&display=swap');
 
-
+:root{
+    --yellow:#f9ca24;
+}
 
 *{
     font-family: 'nunito' sans-serif;
@@ -22,6 +24,11 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
 }
+
+html::-webkit-scrollbar{
+    width: 1.4rem;
+    }
+
 
 html::-webkit-scrollbar-track{
 background: #222;
@@ -59,7 +66,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: 7rem solid var(--yellow);
+    border: .7rem solid var(--yellow);
 }
 
 
@@ -91,9 +98,57 @@ header .navbar ul li a{
     background: #333;
     font-size: 2rem;
     border-radius: 5rem;
+    color: #fff;
 }
 
 
 header .navbar ul li a:hover{
     background: var(--yellow);
 }
+
+#menu{
+    position: fixed;
+    top: 2rem; right: 2rem;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+    z-index: index 1000;
+    display: none;
+}
+
+/* media queries */
+
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+
+
+@media (max-width:991px){
+    header{
+        left: -120%;
+    }
+
+    #menu{
+        display: block;
+    }
+    header .toggle{
+        left: 0%;
+    }
+}
+
+
+@media (max-width:400px){
+    header{
+       width: 100vw;
+    }
+}
+   
+@media (max-width:768px){
+       html{
+        font-size: 50%;
+       }
+    }
