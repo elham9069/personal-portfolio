@@ -71,6 +71,20 @@ section{
 .btn:hover
 {background-color: var(--yellow);
 }
+
+.heading{
+    text-align: center;
+    margin: 0 4rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+
+.heading span{
+    color:var(--yellow);
+}
+
 header{
     position: fixed;
     top:0; left:0;
@@ -140,7 +154,7 @@ header .navbar ul li a:hover{
     cursor: pointer;
     font-size: 2.5rem;
     padding: 1rem 1.5rem;
-    z-index: index 1000;
+    z-index: 1000;
     display: none;
 }
 
@@ -172,19 +186,30 @@ header .navbar ul li a:hover{
     }
 }
 
+@media (max-width:768px){
+    html{
+     font-size: 50%;
+    }
+}
 
 @media (max-width:400px){
     header{
        width: 100vw;
     }
-}
-   
-@media (max-width:768px){
-       html{
-        font-size: 50%;
-       }
+
+    .heading{
+        margin: 0 3rem;
     }
 
+    .about .row .counter .box {
+        width: 100%;
+    }
+
+
+}
+
+
+   
     .home{
         display: flex;
         justify-content: center;
@@ -213,8 +238,68 @@ header .navbar ul li a:hover{
 
 
     .home p{
-        font-size: 2.3rem;
+        font-size: 2.1rem;
         color: #eee;
         padding: 1rem 0;
-        line-height: 35px;
+        line-height: 40px;
+        text-justify: distribute;
+    }
+
+    .about .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem 0;
+    }
+
+    .about .row .info{
+        flex: 1 1 48rem;
+        padding: 2rem 1rem;
+        padding-left: 6rem;
+    }
+
+    .about .row .info h3{
+        font-size: 2rem;
+        color: var(--yellow);
+        padding: 1rem 0;
+        font-weight: normal;
+    }
+
+    .about .row .info h3 span{
+        color: #eee;
+        padding: 0 .5rem;
+    }
+
+    .about .row .counter{
+        flex: 1 1 48rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .about .row .counter .box{
+        width: 20rem;
+        background: #222;
+        text-align: center;
+        padding: 2rem;
+        margin: 2rem;
+    }
+
+
+    .about .row .counter span{
+        font-size: 4rem;
+        color: var(--yellow);
+    }
+
+
+    .about .row .counter span h3{
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    .box h3{
+        color: #fff;
+        font-size: 15px;
     }
