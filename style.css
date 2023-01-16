@@ -160,7 +160,7 @@ header .navbar ul li a:hover{
 
 /* media queries */
 
-@media (max-width:1200px){
+@media screen and (max-width:1200px){
     html{
         font-size: 55%;
     }
@@ -170,7 +170,7 @@ header .navbar ul li a:hover{
 }
 
 
-@media (max-width:991px){
+@media screen and (max-width:991px){
     header{
         left: -120%;
     }
@@ -186,13 +186,13 @@ header .navbar ul li a:hover{
     }
 }
 
-@media (max-width:768px){
+@media screen and (max-width:768px){
     html{
      font-size: 50%;
     }
 }
 
-@media (max-width:400px){
+@media screen and (max-width:400px){
     header{
        width: 100vw;
     }
