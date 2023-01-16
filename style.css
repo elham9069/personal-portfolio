@@ -42,9 +42,35 @@ html::-webkit-scrollbar-thumb{
 body{
     background: #111;
     overflow-x: hidden;
+    padding-left: 35rem;
 }
 
+section{
+    min-width: 100vh;
+    padding: 1rem;
+}
 
+.btn{
+    padding: 4rem 3rem;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    margin-top: .5rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+    
+    
+}
+
+.btn i{
+    padding: 0 .5rem;
+    font-size: 1.8rem;
+
+}
+
+.btn:hover
+{background-color: var(--yellow);
+}
 header{
     position: fixed;
     top:0; left:0;
@@ -124,6 +150,9 @@ header .navbar ul li a:hover{
     html{
         font-size: 55%;
     }
+    .home{
+        padding: 1rem 4rem;
+    }
 }
 
 
@@ -138,6 +167,9 @@ header .navbar ul li a:hover{
     header .toggle{
         left: 0%;
     }
+    body{
+        padding:0;
+    }
 }
 
 
@@ -151,4 +183,38 @@ header .navbar ul li a:hover{
        html{
         font-size: 50%;
        }
+    }
+
+    .home{
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        padding: 0 15rem;
+
+    }
+
+    .home h3{
+        font-size: 2.5rem;
+        color: #fff;
+        margin-top: 25px;
+    }
+
+
+    .home h1{
+        font-size: 5rem;
+        color: #fff;
+        margin-top: 15px;
+    }
+
+    .home h1 span{
+    
+        color: var(--yellow)
+    }
+
+
+    .home p{
+        font-size: 2.3rem;
+        color: #eee;
+        padding: 1rem 0;
+        line-height: 35px;
     }
