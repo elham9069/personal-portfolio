@@ -303,3 +303,41 @@ header .navbar ul li a:hover{
         color: #fff;
         font-size: 15px;
     }
+
+    .education .box-container{
+        display: grid;
+        padding: 1rem 0;
+        padding-left: 3rem;
+        width: auto;
+        
+    }
+
+    .education .box-container .box{
+        margin: 4rem 1rem;
+        padding-left: 4rem;
+        border-left: .2rem solid #fff;
+        position: relative;
+    }
+
+    .education .box-container .box span{
+        font-size: 2.1rem;
+        background: #222;
+        color: #fff;
+        border-radius: 4rem;
+        padding: .5rem 2.5rem;
+    }
+
+
+    .education .box-container .box h3{
+        font-size: 2.7rem;
+        color: var(--yellow);
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .education .box-container .box ul li{
+        font-size: 2.0rem;
+        color: #eee;
+        padding-top: 1rem 0;
+        line-height: 35px;
+    }
