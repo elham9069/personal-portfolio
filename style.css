@@ -342,3 +342,39 @@ header .navbar ul li a:hover{
         padding-top: 1rem 0;
         line-height: 35px;
     }
+
+
+    .cer .box-container1{
+        display: grid;
+        padding: 1rem 0;
+        padding-left: 3rem;
+        width: auto;
+        
+    }
+
+
+    .cer .box-container1 .certificates{
+        margin: 4rem 1rem;
+        padding-left: 4rem;
+        border-left: .2rem solid #fff;
+        position: relative;
+    }
+
+    .cer .box-container1 .certificates h3{
+        font-size: 2.7rem;
+        color: var(--yellow);
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .cer .box-container1 .certificates ul li{
+        font-size: 2.0rem;
+        color: #eee;
+        padding-top: 1rem 0;
+        line-height: 35px;
+    }
+
+    .cer .box-container1 .certificates ul li a {
+        font-size: 2.0rem;
+        color: var(--yellow);
+    }
