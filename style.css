@@ -378,3 +378,19 @@ header .navbar ul li a:hover{
         font-size: 2.0rem;
         color: var(--yellow);
     }
+
+    .skill-progress{
+        display: grid;
+        padding: 1rem 0;
+        padding-left: 3rem;
+        width: auto;
+        color: #eee;
+        font-size: 2.1rem;
+        
+        
+    }
+
+    .skill-progress h3{
+        color: var(--yellow);
+        padding-bottom: 23px;
+    }
