@@ -274,7 +274,7 @@ header .navbar ul li a:hover{
     .about .row .info h3 span{
         color: #eee;
         padding: 0 .5rem;
-        font-size: 2.1rem;
+        font-size: 2.3rem;
     }
 
     .about .row .counter{
@@ -404,6 +404,21 @@ header .navbar ul li a:hover{
         padding-bottom: 23px;
     }
 
+
+
+    .grid-container {
+        display: grid;
+        height: 150px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 50px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+        
+       
+    
+          }
+
+  
 
     .tools .box-tools .tool1{
         margin: 4rem 1rem;
