@@ -2,6 +2,7 @@
 
 :root{
     --yellow:#f9ca24;
+
 }
 
 *{
@@ -10,8 +11,9 @@
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
+
     transition: all .2s linear;
+    
 
 }
 
@@ -298,6 +300,10 @@ header .navbar ul li a:hover{
     .about .row .counter span h3{
         font-size: 2rem;
         color: #fff;
+    }
+
+    .about h3 a{
+        color: var(--yellow);
     }
 
     .box h3{
