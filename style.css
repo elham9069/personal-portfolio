@@ -253,6 +253,7 @@ header .navbar ul li a:hover{
         justify-content: center;
         flex-wrap: wrap;
         padding: 1rem 0;
+        text-transform: capitalize;
     }
 
     .about .row .info{
@@ -266,6 +267,8 @@ header .navbar ul li a:hover{
         color: var(--yellow);
         padding: 1rem 0;
         font-weight: normal;
+        text-transform: capitalize;
+
     }
 
     .about .row .info h3 span{
