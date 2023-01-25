@@ -53,13 +53,14 @@ section{
 }
 
 .btn{
-    padding: 4rem 3rem;
+    padding: 3rem 2rem;
     background: #333;
     color: #fff;
     cursor: pointer;
-    margin-top: .5rem;
+    margin-top: 1rem;
     font-size: 2rem;
     border-radius: 5rem;
+    width: 200px;
     
     
 }
@@ -443,3 +444,79 @@ header .navbar ul li a:hover{
         padding-bottom: 23px;
         font-size: 2.7rem;
     }
+
+
+
+    .contact .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    .contact .row form{
+        flex: 1 1 45rem;
+        padding: 2rem;
+        margin: 2rem;
+        padding-bottom: 4rem;
+    }
+
+
+    .contact .row form .box{
+       
+        padding: 1.5rem;
+        margin: 1rem 0;
+        background:#3333;
+        color: #fff;
+        text-transform: none;
+        font-size: 1.7rem;
+        width: 100%;
+        
+    }
+
+    .contact .row form .box::placeholder{
+        text-transform: capitalize;
+    }
+
+
+    .contact .row form .message{
+        height: 15rem;
+        resize: none;
+    }
+
+
+    .contact .row .content .title{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+
+
+    .contact .row .content .info h3{
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        color: #eee;
+        padding: 1rem 0;
+        font-weight: normal;
+       
+
+    }
+
+    .contact .row .content .info i{
+        padding-right: 1rem;
+        color: var(--yellow);
+    }
+
+
+    
+    .contact .row .content .title{
+        color: var(--yellow);
+        margin-top: 0;
+    }
+
+   .el{
+    margin-top: 10px;
+   }
